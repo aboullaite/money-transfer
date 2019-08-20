@@ -19,6 +19,6 @@ The project generates dummy data for testing. This is completely optional and ca
 The project comes with a Dockerfile to build docker image for the app. As mentionned previously, we can ca choose between generating ot not the data:
 
 + Build image with data: `docker build -t rev/money-transfer .`
-+ Build image without data: `docker build --build-arg arg=No_DATA -t rev/ev/money-transfer .`
++ Build image without data: `docker build --build-arg arg=No_DATA -t rev/money-transfer .`
 
 and finally, simply run the image `docker run -p 8080:9999 rev/money  `
